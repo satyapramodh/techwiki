@@ -29,3 +29,7 @@ https://gist.github.com/satyapramodh/61972e3861e822a0db08679df51ef02d
 List of adware, spyware, malware sites to block in windows (hosts file)
 
 https://github.com/satyapramodh/techwiki/wiki/Editing-ad-spam-block-list-for-windows-hosts-file
+
+Mac
+
+https://github.com/satyapramodh/techwiki/wiki/Mac
