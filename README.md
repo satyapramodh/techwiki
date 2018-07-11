@@ -1,35 +1,35 @@
 # Techwiki
 
-AWS
+### AWS
 
 https://github.com/satyapramodh/techwiki/wiki/Amazon-aws-notes
 
-PHP/Drupal
+### Mac
 
-https://github.com/satyapramodh/techwiki/wiki/Mac-Php-Drupal-7-notes
+https://github.com/satyapramodh/techwiki/wiki/Mac
 
-Meteor JS
-
-https://github.com/satyapramodh/techwiki/wiki/meteor
-
-Ubuntu / SSL
+### Ubuntu / SSL
 
 https://github.com/satyapramodh/techwiki/wiki/Ubuntu-notes
 
 https://github.com/satyapramodh/techwiki/wiki/ssl-notes
 
-WSL
+### WSL
 
 https://github.com/Microsoft/WSL/issues/815
 
-// ssh-agent issues
+### ssh-agent issues
 
 https://gist.github.com/satyapramodh/61972e3861e822a0db08679df51ef02d
 
-List of adware, spyware, malware sites to block in windows (hosts file)
+### Meteor JS
+
+https://github.com/satyapramodh/techwiki/wiki/meteor
+
+### List of adware, spyware, malware sites to block in windows (hosts file)
 
 https://github.com/satyapramodh/techwiki/wiki/Editing-ad-spam-block-list-for-windows-hosts-file
 
-Mac
+### PHP/Drupal
 
-https://github.com/satyapramodh/techwiki/wiki/Mac
+https://github.com/satyapramodh/techwiki/wiki/Mac-Php-Drupal-7-notes
