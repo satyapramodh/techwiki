@@ -2,11 +2,11 @@
 
 ### AWS
 
-https://github.com/satyapramodh/techwiki/wiki/Amazon-aws-notes
+https://github.com/satyapramodh/techwiki/blob/master/aws.md
 
 ### Mac
 
-https://github.com/satyapramodh/techwiki/wiki/Mac
+https://github.com/satyapramodh/techwiki/blob/master/mac.md
 
 ### Ubuntu / SSL
 
@@ -28,7 +28,7 @@ https://github.com/satyapramodh/techwiki/wiki/meteor
 
 ### List of adware, spyware, malware sites to block in windows (hosts file)
 
-https://github.com/satyapramodh/techwiki/wiki/Editing-ad-spam-block-list-for-windows-hosts-file
+https://github.com/satyapramodh/techwiki/blob/master/spam-hosts.md
 
 ### PHP/Drupal
 
