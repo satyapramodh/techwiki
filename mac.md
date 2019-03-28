@@ -33,7 +33,6 @@ fi
 
 GIT_PS1_SHOWDIRTYSTATE=true
 export PS1='[\u@mbp \w$(__git_ps1)]\$ '
-```
 
 # Terminal colors
 export CLICOLOR=1;
@@ -41,5 +40,6 @@ export LSCOLORS=exfxcxdxbxegedabagacad;
 
 
 function sshl {
-        eval "ssh ubuntu@$1"
+   eval "ssh ubuntu@$1"
 }
+```
