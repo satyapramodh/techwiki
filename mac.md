@@ -19,18 +19,20 @@ fi
 
 [ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
 
-### https://github.com/magicmonty/bash-git-prompt
+# https://github.com/magicmonty/bash-git-prompt
 if [ -f "/usr/local/opt/bash-git-prompt/share/gitprompt.sh" ]; then
     __GIT_PROMPT_DIR="/usr/local/opt/bash-git-prompt/share"
     source "/usr/local/opt/bash-git-prompt/share/gitprompt.sh"
 fi
 
-### git autocomplete
+# git autocomplete
+# https://github.com/bobthecow/git-flow-completion
+# https://github.com/bobthecow/git-flow-completion/issues/46
 if [ -f `brew --prefix`/etc/bash_completion.d/git-completion.bash ]; then
   . `brew --prefix`/etc/bash_completion.d/git-completion.bash
 fi
 
-
+# https://gist.github.com/trey/2722934
 GIT_PS1_SHOWDIRTYSTATE=true
 export PS1='[\u@mbp \w$(__git_ps1)]\$ '
 
