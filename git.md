@@ -15,7 +15,7 @@ alias gck='git checkout $1'
 alias gbd='git branch -D $1'
 alias gckb='git checkout -b $1'
 alias gstash='git stash'
-alias gstashp='git stash pop
+alias gstashp='git stash pop'
 </pre>  
 
 Git rebase `ours`, `theirs`
