@@ -40,6 +40,23 @@ export PS1='[\u@mbp \w$(__git_ps1)]\$ '
 export CLICOLOR=1;
 export LSCOLORS=exfxcxdxbxegedabagacad;
 
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+export PATH="$HOME/Library/Python/3.6/bin:$PATH"
+export PATH="$PATH:~/Programs/terraform"
+
+if command -v pyenv 1>/dev/null 2>&1; then
+  eval "$(pyenv init -)"
+fi
+
+# Setting PATH for Python 3.6
+# The original version is saved in .bash_profile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/3.6/bin:${PATH}"
+export PATH
 
 function sshl {
    eval "ssh ubuntu@$1"
