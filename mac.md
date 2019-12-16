@@ -8,6 +8,16 @@ You'll need to restart your shell (for example by opening a new terminal window 
 ## Happy git env
 https://gist.github.com/trey/2722934
 
+## git autocompletion
+https://medium.com/@oliverspryn/adding-git-completion-to-zsh-60f3b0e7ffbc
+
+```shell
+# Load Git completion
+zstyle ':completion:*:*:git:*' script ~/.zsh/git-completion.bash
+fpath=(~/.zsh $fpath)
+autoload -Uz compinit && compinit
+```
+
 ### .bash_profile
 
 ```shell
@@ -18,6 +28,8 @@ if [ -f $(brew --prefix)/etc/bash_completion ]; then
 fi
 
 [ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
+# ?
+setopt PROMPT_SUBST ; PS1='[%n@%m %c$(__git_ps1 " (%s)")]\$ '
 
 # https://github.com/magicmonty/bash-git-prompt
 if [ -f "/usr/local/opt/bash-git-prompt/share/gitprompt.sh" ]; then
