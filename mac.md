@@ -5,6 +5,13 @@ Put this in your `~/.inputrc`:
 
 You'll need to restart your shell (for example by opening a new terminal window or typing exec /bin/bash).
 
+
+## for zsh/bash to remember history per terminal (so you can use up arrow)
+```setopt no_share_history```
+
+[Ref](https://stackoverflow.com/questions/9502274/last-command-in-same-terminal)
+
+
 ## Happy git env
 https://gist.github.com/trey/2722934
 
@@ -18,7 +25,7 @@ fpath=(~/.zsh $fpath)
 autoload -Uz compinit && compinit
 ```
 
-### .bash_profile
+### .bash_profile / .zsh_profile
 
 ```shell
 export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
